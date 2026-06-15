@@ -1,0 +1,28 @@
+name: ml_experiments
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scikit-learn
+  - scikit-posthocs
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - mlflow
+  - psycopg2
+  - ipykernel
+  - ipywidgets
+  - dask
+  - distributed
+  - dask-jobqueue
+  - tqdm
+  - optuna
+  - postgresql
+  - pytest
+  - pip
+  - pip:
+    - -e .
+    - openml
+    - optuna-integration
+    - func-timeout

@@ -1,0 +1,20 @@
+name: cohirf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - ipykernel
+  - ipywidgets
+  - seaborn
+  - optuna
+  - dask-ml
+  - zarr
+  - pip
+  - pip:
+      - openml
+      - -e .
